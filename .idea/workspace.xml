@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e78c4f0-0508-470d-8d45-77dbc8c388e8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/creativite_indiv.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/game/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/game/main.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/game/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/game/sprites.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/p1_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/blockerBody.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/blockerMad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/blockerSad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/enemies_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/enemies_spritesheet.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/fishDead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/fishSwim1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/fishSwim2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/flyDead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/flyFly1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/flyFly2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/pokerMad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/pokerSad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/slimeDead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/slimeWalk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/slimeWalk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/snailShell.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/snailShell_upsidedown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/snailWalk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Enemies/snailWalk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_coins.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_gem_blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_gem_green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_gem_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_gem_yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_heartEmpty.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_heartFull.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_heartHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyBlue_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyGreem_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyRed_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_keyYellow_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_p1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_p1Alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_p2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_p2Alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_p3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_p3Alt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_spritesheet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/HUD/hud_x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/bomb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/bombFlash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/bush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonBlue_pressed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonGreen_pressed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonRed_pressed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/buttonYellow_pressed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/cactus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/chain.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/cloud1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/cloud2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/cloud3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/coinBronze.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/coinGold.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/coinSilver.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/fireball.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagBlue2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagBlueHanging.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagGreen2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagGreenHanging.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagRed2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagRedHanging.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagYellow2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/flagYellowHanging.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/gemBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/gemGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/gemRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/gemYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/items_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/items_spritesheet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/keyBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/keyGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/keyRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/keyYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/mushroomBrown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/mushroomRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/particleBrick1a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/particleBrick1b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/particleBrick2a.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/particleBrick2b.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/plant.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/plantPurple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/rock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/snowhill.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/spikes.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/springboardDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/springboardUp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/switchLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/switchMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/switchRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/weight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Items/weightChained.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_front.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_spritesheet.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/PNG/p1_walk11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/p1_walk.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p1_walk/p1_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_front.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_spritesheet.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/PNG/p2_walk11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/p2_walk.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p2_walk/p2_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_front.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_spritesheet.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/PNG/p3_walk11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/p3_walk.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Player/p3_walk/p3_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/box.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxCoin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxCoinAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxCoinAlt_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxCoin_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxEmpty.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxExplosive.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxExplosiveAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxExplosive_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxItem.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxItemAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxItemAlt_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxItem_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/boxWarning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/brickWall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/bridge.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/bridgeLogs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/castleRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/dirtRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/door_closedMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/door_closedTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/door_openMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/door_openTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/fence.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/fenceBroken.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grass.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/grassRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/hill_large.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/hill_largeAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/hill_small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/hill_smallAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/ladder_mid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/ladder_top.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/liquidLava.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/liquidLavaTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/liquidLavaTop_mid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/liquidWater.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/liquidWaterTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/liquidWaterTop_mid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/lock_blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/lock_green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/lock_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/lock_yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/rockHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/rockHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/ropeAttached.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/ropeHorizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/ropeVertical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sandRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/sign.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/signExit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/signLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/signRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/snowRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/stoneWall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/tiles_spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/tiles_spritesheet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/tochLit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/tochLit2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/torch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Tiles/window.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Vector/characters.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Vector/characters.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Vector/enemies.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Vector/enemies.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Vector/tiles.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/Vector/tiles.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/bg_castle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Base pack/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/anemometer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/awningGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/awningGreenRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/awningRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/chimney.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/chimneyLow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/chimneyThin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorKnob.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorKnobAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorLock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorOpen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorOpenTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorPlateTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/doorWindowTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/fenceGate.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/fenceLong.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/fenceLow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeige.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeAlt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeBottomLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeBottomMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeBottomRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeMidLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeMidRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeTopLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeTopMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseBeigeTopRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDark.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkAlt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkBottomLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkBottomMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkBottomRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkMidLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkMidRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkTopLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkTopMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseDarkTopRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGray.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayAlt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayBottomLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayBottomMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayBottomRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayMidLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayMidRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayTopLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayTopMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/houseGrayTopRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/rockMoss.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/rockMossAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofGreyLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofGreyMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofGreyRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofGreyTopLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofGreyTopMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofGreyTopRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofRedLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofRedMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofRedRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofRedTopLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofRedTopMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofRedTopRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofYellowLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofYellowMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofYellowRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofYellowTopLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofYellowTopMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/roofYellowTopRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/signBed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/signCoin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/signCup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/signHangingBed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/signHangingCoin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/signHangingCup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/window.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowCheckered.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighCheckeredBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighCheckeredMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighCheckeredTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighLeadlightBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighLeadlightMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighLeadlightTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighOpenBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighOpenMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighOpenTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowHighTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowLeadlight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowLow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowLowCheckered.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowLowLeadlight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowLowOpen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Tiles/windowOpen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Vector/sheet.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/Vector/sheet.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Buildings expansion/sheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cake.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfAltLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfAltMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfAltRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cakeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/candyBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/candyGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/candyRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/candyYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/canePink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/canePinkSmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/canePinkTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/canePinkTopAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cherry.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/choco.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfAltLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfAltMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfAltRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/chocoRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cookieBrown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cookieChoco.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cookiePink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/creamChoco.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/creamMocca.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/creamPink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/creamVanilla.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/cupCake.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/gummyWormGreenEnd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/gummyWormGreenHead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/gummyWormGreenMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/gummyWormRedEnd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/gummyWormRedHead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/gummyWormRedMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCaneChoco.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCaneChocoTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCaneGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCaneGreenTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCanePink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCanePinkTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCaneRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/hillCaneRedTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopBase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopBaseBeige.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopBaseBrown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopBaseCake.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopBasePink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopFruitGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopFruitRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopFruitYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopWhiteGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/lollipopWhiteRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/waffleChoco.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/wafflePink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Tiles/waffleWhite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Vector/sheet.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/Vector/sheet.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Candy expansion/sheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_badge1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_badge2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_climb1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_climb2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_swim1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_swim2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_walk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBeige_walk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_badge1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_badge2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_climb1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_climb2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_swim1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_swim2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_walk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienBlue_walk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_badge1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_badge2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_climb1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_climb2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_swim1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_swim2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_walk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienGreen_walk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_badge1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_badge2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_climb1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_climb2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_swim1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_swim2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_walk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienPink_walk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_badge1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_badge2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_climb1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_climb2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_duck.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_hurt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_stand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_swim1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_swim2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_walk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Alien sprites/alienYellow_walk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/barnacle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/barnacle_bite.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/barnacle_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/barnacle_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bat_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bat_fly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bat_hang.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bat_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bee.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bee_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bee_fly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/bee_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishGreen_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishGreen_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishGreen_swim.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishPink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishPink_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishPink_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fishPink_swim.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fly_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fly_fly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/fly_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/frog.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/frog_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/frog_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/frog_leap.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ghost.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ghost_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ghost_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ghost_normal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/grassBlock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/grassBlock_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/grassBlock_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/grassBlock_jump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ladyBug.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ladyBug_fly.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ladyBug_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/ladyBug_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/mouse.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/mouse_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/mouse_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/mouse_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/piranha.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/piranha_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/piranha_down.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/piranha_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slime.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlock_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlock_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlue_blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlue_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlue_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeBlue_squashed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeGreen_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeGreen_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeGreen_squashed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slimeGreen_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slime_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slime_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slime_squashed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/slime_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snail_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snail_shell.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snail_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snake.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeLava.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeLava_ani.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeLava_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeLava_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeSlime.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeSlime_ani.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeSlime_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snakeSlime_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snake_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snake_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/snake_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spider.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spider_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spider_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spider_walk1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spider_walk2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinnerHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinnerHalf_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinnerHalf_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinnerHalf_spin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinner_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinner_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/spinner_spin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/worm.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/worm_dead.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/worm_hit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Enemy sprites/worm_walk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienBeige.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienBeige.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienBlue.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienGreen.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienPink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienPink.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienYellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/alienYellow.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/aliens.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/aliens.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/enemies.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Spritesheets/enemies.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Vector/aliens.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Vector/aliens.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Vector/enemies.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/Vector/enemies.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Extra animations and enemies/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneGreenSmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneGreenTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneGreenTopAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneRed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneRedSmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneRedTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/caneRedTopAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/deadTree.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceBlock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceBlockAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceBlockHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceBlockHalfAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWater.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterDeep.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterDeepAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterDeepStars.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterDeepStarsAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iceWaterMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/igloo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iglooAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iglooDoor.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iglooRoof.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iglooRoofLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/iglooRoofRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/pineSapling.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/pineSaplingAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/plant.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/plantAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/rock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/rockAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowBall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowBallBig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowBallBigGround.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowBallGround.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowGroundLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowGroundRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowHill.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowHillLow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/snowWave.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikeTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikesBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikesBottomAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikesBottomAlt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikesTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikesTopAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/spikesTopAlt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tree.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesLeftSnowAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesSnowLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesSnowRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesSnowRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeBranchesSnowRightSnowAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTopSnow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunk.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBottomAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBottomAlt2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBottomAlt3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBranch.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBranchEndLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBranchEndRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBranchLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkBranchRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkSplitLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkSplitRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/treeTrunkTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundra.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraCenter_rounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHillLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHillLeft2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHillRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraHillRight2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraLedgeLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraLedgeRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Tiles/tundraRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Vector/sheet.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/Vector/sheet.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Ice expansion/sheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/Backgrounds/bg_castle.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/Backgrounds/bg_desert.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/Backgrounds/bg_grasslands.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/Backgrounds/bg_shroom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/bush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltSpotsLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltSpotsMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltSpotsMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownAltSpotsRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownSpotsLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownSpotsMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownSpotsMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomBrownSpotsRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedAltLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedAltMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedAltMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedAltRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomRedRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanAltLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanAltMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanAltMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanAltRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanMidAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/shroomTanRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/spritesheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/spritesheet.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stem.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemBase.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemBaseAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemCrown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemShroom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemTopAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/stemVine.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/tallShroom_brown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/tallShroom_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/tallShroom_tan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/tinyShroom_brown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/tinyShroom_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/PNG/tinyShroom_tan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/Vector/tiles.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/Vector/tiles.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Mushroom expansion/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beam.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamBolts.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamBoltsHoles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamBoltsNarrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamDiagonalLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamDiagonalRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamHoles.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/beamNarrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveBL.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveBR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveRockLarge.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveRockSmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveSpikeBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveSpikeTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveUL.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/dirtCaveUR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserBlueBurst.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserBlueHorizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserBlueVertical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserDown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserDownShoot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserGreenBurst.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserGreenHorizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserGreenVertical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserLeftShoot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserPurple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserPurpleDot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserRedBurst.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserRedHorizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserRedVertical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserRightShoot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchBlueOff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchBlueOn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchGreenOff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchGreenOn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchRedOff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchRedOn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchYellowOff.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserSwitchYellowOn.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserUp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserUpShoot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserYellowBurst.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserYellowHorizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/laserYellowVertical.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCenter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCenterSticker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCenterWarning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCliffLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCliffLeftAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCliffRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalCliffRightAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalFence.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalFenceAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalHalf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalHalfLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalHalfMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalHalfRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalMid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalPlatform.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalPlatformWire.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalPlatformWireAlt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/metalRounded.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/raygun.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/raygunBig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/raygunPurple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/raygunPurpleBig.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/shieldBronze.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/shieldGold.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/shieldSilver.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveBL.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveBR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveRockLarge.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveRockSmall.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveSpikeBottom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveSpikeTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveTop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveUL.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/stoneCaveUR.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/swordBronze.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/swordGold.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/swordSilver.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/tile_20.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/tile_21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/umbrellaClosed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/umbrellaOpen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/wireBottomLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/wireBottomRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/wireHook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/wireLeft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Tiles/wireRight.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Vector/sheet.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/Vector/sheet.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/Request pack/sheet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/license.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/platformer_art_complete_pack/sample.png" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/creativite_indiv$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1518976060392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game" />
+    <SUITE FILE_PATH="coverage/creativite_indiv$main.coverage" NAME="main Coverage Results" MODIFIED="1518976055970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+              <folding>
+                <element signature="e#18#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sprites.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/game/sprites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#35#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="708" />
+    <option name="width" value="1219" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="creativite_indiv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creativite_indiv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creativite_indiv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creativite_indiv" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="creativite_indiv" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="creativite_indiv" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/game/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e78c4f0-0508-470d-8d45-77dbc8c388e8" name="Default" comment="" />
+      <created>1518975936356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518975936356</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="708" y="0" width="1219" height="1087" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21016365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/game/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="e#18#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/sprites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
