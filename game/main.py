@@ -5,6 +5,7 @@ import pygame as pg
 import random
 from settings import *
 from sprites import *
+from os import path
 
 class Game:
     def __init__(self):
@@ -20,6 +21,20 @@ class Game:
         self.all_sprites = None
         self.playing = False
         self.font_name = pg.font.match_font(FONT_NAME)
+        self.load_data()
+
+    def load_data(self):
+        # load high score
+        self.dir = path.dirname(__file__)
+        img_dir = path.join(self.dir, 'img')
+        with open(path.join(self.dir, HS_FILE), 'w') as f:
+            try:
+                self.highscore = int(f.read())
+            except:
+                self.highscore = 0
+        # load spritesheet image
+        self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
+
 
     def new(self):
         # start a new game
@@ -50,7 +65,8 @@ class Game:
         self.all_sprites.update()
         # check if player hits a platform - only if falling
         if self.player.vel.y > 0:
-            hits = pg.sprite.spritecollide(self.player, self.platforms,
+            hits = pg.sprite.spritecollide(self.player,
+                                           self.platforms,
                                            dokill=False)
             if hits:
                 self.player.pos.y = hits[0].rect.top + 1
@@ -111,19 +127,31 @@ class Game:
                        HEIGHT / 2)
         self.draw_text("press a key to play", 22, WHITE, WIDTH / 2,
                        HEIGHT * 3 / 4)
+        self.draw_text(f"Hight Score: {self.highscore}", 22, WHITE, WIDTH / 2,
+                       15)
         pg.display.flip()
         self.wait_for_key()
 
     def show_go_screen(self):
         # game over/continue
-        if not self.running:
-            return
+        if not self.running:  # if we want to quit in the middle of a game and
+            return            # not see the go screen
         self.screen.fill(BGCOLOR)
         self.draw_text("GAME OVER", 48, WHITE, WIDTH / 2, HEIGHT / 4)
-        self.draw_text(f"Score: {self.score}", 22, WHITE, WIDTH / 2,
-                       HEIGHT / 2)
-        self.draw_text("press a key to play again", 22, WHITE, WIDTH / 2,
-                       HEIGHT * 3 / 4)
+        self.draw_text(f"Score: {self.score}", 22, WHITE, WIDTH / 2, HEIGHT / 2)
+        self.draw_text("press a key to play again", 22, WHITE,
+                       WIDTH / 2, HEIGHT * 3 / 4)
+
+        if self.score > self.highscore:
+            self.highscore = self.score
+            self.draw_text("NEW HIGH SCORE !", 22, WHITE,
+                           WIDTH / 2, HEIGHT / 2 + 40)
+
+            with open(path.join(self.dir, HS_FILE), 'w') as f:
+                f.write(str(self.score))
+        else:
+            self.draw_text(f"High Score: {self.highscore}", 22,
+                           WHITE, WIDTH / 2, HEIGHT / 2 + 40)
         pg.display.flip()
         self.wait_for_key()
 
