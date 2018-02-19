@@ -1,3 +1,10 @@
+"""
+Inspired from the tutorial at:
+https://www.youtube.com/watch?v=uWvb3QzA48c&list=PLsk-HSGFjnaG-BwZkuAOcVwWldfCLu1pq
+Which is on the YT channel of KidsCanCode
+"""
+
+
 # Creativity game
 import sys
 import os
@@ -34,7 +41,9 @@ class Game:
                 self.highscore = 0
         # load spritesheet image
         self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
-
+        # load sounds
+        self.snd_dir = path.join(self.dir, 'snd')
+        self.jump_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Jump33.wav'))
 
     def new(self):
         # start a new game
@@ -69,8 +78,17 @@ class Game:
                                            self.platforms,
                                            dokill=False)
             if hits:
-                self.player.pos.y = hits[0].rect.top + 1
-                self.player.vel.y = 0
+                # to make sure the lowest platforms is always the lower one
+                # cause if their is multiples hits they are set in random order
+                lowest = hits[0]
+                for hit in hits:
+                    if hit.rect.bottom > lowest.rect.bottom:
+                        lowest = hit
+                if self.player.pos.y < lowest.rect.centery:
+                    self.player.pos.y = lowest.rect.top + 1
+                    self.player.vel.y = 0
+                    self.player.jumping = False
+
 
         # if player reaches top 1/4 of screen
         if self.player.rect.top <= HEIGHT / 4:
@@ -98,7 +116,6 @@ class Game:
             self.platforms.add(p)
             self.all_sprites.add(p)
 
-
     def events(self):
         # Game Loop - events
         for event in pg.event.get():
@@ -110,6 +127,9 @@ class Game:
             if event.type == pg.KEYDOWN:
                 if event.key == pg.K_SPACE:
                     self.player.jump()
+            if event.type == pg.KEYUP:
+                if event.key == pg.K_SPACE:
+                    self.player.jump_cut()
 
     def draw(self):
         # Game Loop - draw
@@ -164,7 +184,6 @@ class Game:
                     self.running = False
                 if event.type == pg.KEYUP:
                     waiting = False
-
 
     def draw_text(self, text, size, color, x, y):
         font = pg.font.Font(self.font_name, size)
