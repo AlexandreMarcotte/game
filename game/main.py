@@ -1,7 +1,16 @@
 """
+CREDITS:
+
 Inspired from the tutorial at:
 https://www.youtube.com/watch?v=uWvb3QzA48c&list=PLsk-HSGFjnaG-BwZkuAOcVwWldfCLu1pq
 Which is on the YT channel of KidsCanCode
+
+Art from Kenney.nl
+
+"A Journey Awaits" by Pierre Bondoerffer (@pbondoer)
+
+"Fast Fight/battle music by Ville Nousiainen / Xythe / mutkanto at:
+http://soundcloud.com/mutkanto
 """
 
 
@@ -58,16 +67,20 @@ class Game:
             p = Platform(self, *plat)
             self.all_sprites.add(p)
             self.platforms.add(p)
+        pg.mixer.music.load(path.join(self.snd_dir, 'fight.ogg'))
         self.run()
 
     def run(self):
         # Game Loop
+        pg.mixer.music.play(loops=-1)
+        pg.mixer.music.set_volume(0.1)
         self.playing = True
         while self.playing:
             self.clock.tick(FPS)
             self.events()
             self.update()
             self.draw()
+        pg.mixer.music.fadeout(500)
 
     def update(self):
         # Game Loop - Update
@@ -140,6 +153,10 @@ class Game:
         pg.display.flip()
 
     def show_start_screen(self):
+        # music
+        pg.mixer.music.load(path.join(self.snd_dir, 'A_Journey_Awaits.ogg'))
+        pg.mixer.music.play(loops=-1)
+        pg.mixer.music.set_volume(0.1)
         # game splash/start screen
         self.screen.fill(BGCOLOR)
         self.draw_text(TITLE, 48, WHITE, WIDTH / 2, HEIGHT / 4)
@@ -147,12 +164,17 @@ class Game:
                        HEIGHT / 2)
         self.draw_text("press a key to play", 22, WHITE, WIDTH / 2,
                        HEIGHT * 3 / 4)
-        self.draw_text(f"Hight Score: {self.highscore}", 22, WHITE, WIDTH / 2,
+        self.draw_text(f"High Score: {self.highscore}", 22, WHITE, WIDTH / 2,
                        15)
         pg.display.flip()
         self.wait_for_key()
+        pg.mixer.music.fadeout(500)
 
     def show_go_screen(self):
+        # music
+        pg.mixer.music.load(path.join(self.snd_dir, 'A_Journey_Awaits.ogg'))
+        pg.mixer.music.play(loops=-1)
+        pg.mixer.music.set_volume(0.1)
         # game over/continue
         if not self.running:  # if we want to quit in the middle of a game and
             return            # not see the go screen

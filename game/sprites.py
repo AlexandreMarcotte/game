@@ -66,6 +66,7 @@ class Player(pg.sprite.Sprite):
         hits = pg.sprite.spritecollide(self, self.game.platforms, dokill=False)
         self.rect.x -= 2
         if hits and not self.jumping:
+            self.game.jump_sound.play()
             self.jumping = True
             self.vel.y = -PLAYER_JUMP
 
