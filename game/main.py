@@ -95,7 +95,7 @@ class Game:
             self.mob_timer = now
             Mob(self)
         # hit mobs?
-        mob_hits = pg.sprite.spritecollide(self.player, self.mobs, False)
+        mob_hits = pg.sprite.spritecollide(self.player, self.mobs, False, pg.sprite.collide_mask)
         if mob_hits:
             self.playing = False
 
@@ -111,8 +111,7 @@ class Game:
                     if hit.rect.bottom > lowest.rect.bottom:
                         lowest = hit
                 # what puts us on the plateform:
-                if self.player.pos.x < lowest.rect.right + 10 and \
-                   self.player.pos.x > lowest.rect.left - 10:
+                if lowest.rect.right + 10 > self.player.pos.x > lowest.rect.left - 10:
                     if self.player.pos.y < lowest.rect.centery:
                         self.player.pos.y = lowest.rect.top + 1
                         self.player.vel.y = 0
