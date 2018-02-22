@@ -16,6 +16,11 @@ PLAYER_JUMP = 16
 # Game properties
 BOOST_POWER = 60
 POW_SPAWN_PCT = 7
+MOB_FREQ = 5000 # spawn every 5 sec
+PLAYER_LAYER = 2
+PLATFORM_LAYER = 1
+POW_LAYER = 1
+MOB_LAYER = 2
 
 # Starting platforms
 PLATFORM_LIST = [(0, HEIGHT - 60),
