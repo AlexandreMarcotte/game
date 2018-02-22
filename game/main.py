@@ -53,20 +53,19 @@ class Game:
         # load sounds
         self.snd_dir = path.join(self.dir, 'snd')
         self.jump_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Jump33.wav'))
+        self.boost_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Jump33.wav'))  # You can change this sound
 
     def new(self):
         # start a new game
         self.score = 0
         self.all_sprites = pg.sprite.Group()
         self.platforms = pg.sprite.Group()
+        self.powerups = pg.sprite.Group()
         # player
         self.player = Player(self)
-        self.all_sprites.add(self.player)
         # platform
         for plat in PLATFORM_LIST:
-            p = Platform(self, *plat)
-            self.all_sprites.add(p)
-            self.platforms.add(p)
+            Platform(self, *plat)
         pg.mixer.music.load(path.join(self.snd_dir, 'fight.ogg'))
         self.run()
 
@@ -97,10 +96,13 @@ class Game:
                 for hit in hits:
                     if hit.rect.bottom > lowest.rect.bottom:
                         lowest = hit
-                if self.player.pos.y < lowest.rect.centery:
-                    self.player.pos.y = lowest.rect.top + 1
-                    self.player.vel.y = 0
-                    self.player.jumping = False
+                # what puts us on the plateform:
+                if self.player.pos.x < lowest.rect.right + 10 and \
+                   self.player.pos.x > lowest.rect.left - 10:
+                    if self.player.pos.y < lowest.rect.centery:
+                        self.player.pos.y = lowest.rect.top + 1
+                        self.player.vel.y = 0
+                        self.player.jumping = False
 
 
         # if player reaches top 1/4 of screen
@@ -111,6 +113,14 @@ class Game:
                 if plat.rect.top >= HEIGHT:
                     plat.kill() # clear the platform so that they don't accumulate
                     self.score += 10
+
+        # if player hits powerup
+        pow_hits = pg.sprite.spritecollide(self.player, self.powerups, True)
+        for pow in pow_hits:
+            if pow.type == 'boost':
+                self.boost_sound.play()
+                self.player.vel.y = - BOOST_POWER
+                self.player.jumping = False
 
         # Die !
         if self.player.rect.bottom > HEIGHT:
@@ -124,10 +134,8 @@ class Game:
         # spawn new platforms to keep same average number
         while len(self.platforms) < 6:
             width = random.randrange(50, 100)
-            p = Platform(self, random.randrange(0, WIDTH-width),
-                         random.randrange(-75, -30))
-            self.platforms.add(p)
-            self.all_sprites.add(p)
+            Platform(self, random.randrange(0, WIDTH-width),
+                     random.randrange(-75, -30))
 
     def events(self):
         # Game Loop - events
