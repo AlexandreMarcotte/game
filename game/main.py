@@ -50,6 +50,10 @@ class Game:
                 self.highscore = 0
         # load spritesheet image
         self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
+        # cloud images
+        self.cloud_images = []
+        for i in range(1, 4):
+            self.cloud_images.append(pg.image.load(path.join(img_dir, 'cloud{}.png'.format(i))).convert())
         # load sounds
         self.snd_dir = path.join(self.dir, 'snd')
         self.jump_sound = pg.mixer.Sound(path.join(self.snd_dir, 'Jump33.wav'))
@@ -63,6 +67,7 @@ class Game:
         self.platforms = pg.sprite.Group()
         self.powerups = pg.sprite.Group()
         self.mobs = pg.sprite.Group()
+        self.clouds = pg.sprite.Group()
         # player
         self.player = Player(self)
         # platform
@@ -70,6 +75,10 @@ class Game:
             Platform(self, *plat)
         self.mob_timer = 0
         pg.mixer.music.load(path.join(self.snd_dir, 'fight.ogg'))
+        # spawn clouds at init time
+        for i in range(10):
+            c = Cloud(self)
+            c.rect.y += 500
         self.run()
 
     def run(self):
@@ -120,7 +129,12 @@ class Game:
 
         # if player reaches top 1/4 of screen
         if self.player.rect.top <= HEIGHT / 4:
+            if random.randrange(100) < 15:
+                Cloud(self)
             self.player.pos.y += max(abs(self.player.vel.y), 2)
+            for cloud in self.clouds:
+                cloud_speed = randrange(10, 40) / 10
+                cloud.rect.y  += max(abs(self.player.vel.y / cloud_speed), 2)
             # scrolling the mobs down (so they seem to stay at the same place
             # when the player is moving up)
             for mob in self.mobs:
